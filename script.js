@@ -9,3 +9,8 @@ function date() {
   x = date();
   document.getElementById("date").value;
 }
+
+function populateEmail() {
+  const userEmail = "mdrakibislam719@gmail.com"; // Replace this with the desired email address
+  window.location.href = `mailto:${userEmail}`;
+}
